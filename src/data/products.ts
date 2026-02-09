@@ -11,7 +11,7 @@ export interface Product {
   spiceLevel?: "mild" | "medium" | "hot" | "extra-hot";
 }
 
-export const WHATSAPP_NUMBER = "2348000000000"; // Replace with actual number
+export const WHATSAPP_NUMBER = "2349051291132";
 
 export const products: Product[] = [
   {
