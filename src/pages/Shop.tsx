@@ -45,10 +45,10 @@ export default function ShopPage() {
               <button
                 key={f.value}
                 onClick={() => setFilter(f.value)}
-                className={`px-5 py-2 rounded-full text-sm font-medium transition-colors ${
+                className={`px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 ${
                   filter === f.value
-                    ? "bg-primary text-primary-foreground"
-                    : "bg-muted text-muted-foreground hover:bg-primary/10"
+                    ? "bg-primary text-primary-foreground shadow-warm"
+                    : "bg-card text-muted-foreground border border-border/60 hover:border-primary/30 hover:text-foreground"
                 }`}
               >
                 {f.label}

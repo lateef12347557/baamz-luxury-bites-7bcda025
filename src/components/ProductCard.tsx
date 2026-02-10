@@ -34,7 +34,7 @@ export default function ProductCard({ product }: { product: Product }) {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="group relative bg-card rounded-lg overflow-hidden border border-border shadow-warm hover:shadow-warm-lg transition-all duration-300"
+      className="group relative bg-card rounded-xl overflow-hidden border border-border/60 shadow-sm hover:shadow-warm-lg hover:border-primary/20 transition-all duration-500"
     >
       {product.badge && (
         <span className="absolute top-3 left-3 z-10 bg-accent text-accent-foreground text-xs font-bold px-3 py-1 rounded-full">
