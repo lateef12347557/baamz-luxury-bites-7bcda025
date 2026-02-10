@@ -6,12 +6,15 @@ export default function Footer() {
       <div className="container py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <span className="text-2xl font-heading font-bold text-gradient-gold">
-              Baamz
-            </span>
-            <span className="text-sm text-secondary-foreground/60 ml-2 tracking-widest uppercase">
-              Foodies
-            </span>
+            <div className="flex items-center gap-3 mb-2">
+              <div className="h-10 w-10 rounded-full bg-primary/20 flex items-center justify-center">
+                <span className="text-lg font-heading font-bold text-gradient-gold">B</span>
+              </div>
+              <div className="flex flex-col leading-tight">
+                <span className="text-xl font-heading font-bold text-gradient-gold">Baamz</span>
+                <span className="text-[10px] tracking-[0.2em] uppercase text-secondary-foreground/50">Foodies</span>
+              </div>
+            </div>
             <p className="mt-4 text-secondary-foreground/70 max-w-sm leading-relaxed">
               Crunching Tradition. Perfected. Premium Nigerian snacks made with
               love, hygiene, and the finest local ingredients.

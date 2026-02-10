@@ -18,10 +18,14 @@ export default function Header() {
   const location = useLocation();
 
   return (
-    <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
+    <header className="sticky top-0 z-50 bg-background/90 backdrop-blur-xl border-b border-border/50 shadow-sm">
       <div className="container flex items-center justify-between h-16 md:h-20">
-        <Link to="/" className="flex items-center gap-2">
-          <img src={baamzLogo} alt="Baamz Foodies" className="h-10 md:h-14 w-auto" />
+        <Link to="/" className="flex items-center gap-3">
+          <img src={baamzLogo} alt="Baamz Foodies" className="h-10 w-10 md:h-12 md:w-12 rounded-full object-cover border-2 border-primary/30 shadow-sm" />
+          <div className="hidden sm:flex flex-col leading-tight">
+            <span className="text-lg font-heading font-bold tracking-tight text-gradient-gold">Baamz</span>
+            <span className="text-[10px] tracking-[0.2em] uppercase text-muted-foreground">Foodies</span>
+          </div>
         </Link>
 
         {/* Desktop nav */}
