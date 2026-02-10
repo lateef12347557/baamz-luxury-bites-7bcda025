@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { ShoppingBag, Menu, X } from "lucide-react";
 import { useCart } from "@/hooks/useCart";
+import baamzLogo from "@/assets/baamz-logo.jpg";
 
 const links = [
   { to: "/", label: "Home" },
@@ -20,12 +21,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2">
-          <span className="text-2xl md:text-3xl font-heading font-bold text-gradient-gold">
-            Baamz
-          </span>
-          <span className="text-sm font-body text-muted-foreground tracking-widest uppercase">
-            Foodies
-          </span>
+          <img src={baamzLogo} alt="Baamz Foodies" className="h-10 md:h-14 w-auto" />
         </Link>
 
         {/* Desktop nav */}
