@@ -70,6 +70,16 @@ export const products: Product[] = [
     badge: "Premium",
   },
   {
+    id: "kuli-max",
+    name: "Kuli-Kuli",
+    category: "kulikuli",
+    variant: "Max",
+    price: 1500,
+    description: "Spicy peanut bar enhanced with milk. The difference is in the taste, the taste makes the difference.",
+    image: "kulikuli-max",
+    inStock: true,
+  },
+  {
     id: "kil-pack",
     name: "Kilishi",
     category: "kilishi",
