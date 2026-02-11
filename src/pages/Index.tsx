@@ -11,7 +11,7 @@ import heroImage from "@/assets/hero-food.jpg";
 const features = [
   { icon: Leaf, title: "100% Natural", desc: "No preservatives or artificial flavors" },
   { icon: Shield, title: "Hygienically Made", desc: "Clean, certified production process" },
-  { icon: Truck, title: "Fast Delivery", desc: "Same-day delivery in Lagos" },
+  { icon: Truck, title: "Fast Delivery", desc: "Fast delivery in Benin City" },
   { icon: Clock, title: "Always Fresh", desc: "Made in small batches daily" },
 ];
 
@@ -22,7 +22,7 @@ export default function HomePage() {
     <Layout>
       {/* Delivery banner */}
       <div className="bg-primary text-primary-foreground text-center py-2 text-sm font-medium">
-        🚚 Free delivery on orders above ₦5,000 in Lagos! Order before 2PM for same-day delivery.
+        🚚 Free delivery on orders above ₦5,000 in Benin City! Order now for fast delivery.
       </div>
 
       {/* Hero */}
@@ -51,7 +51,7 @@ export default function HomePage() {
               <span className="text-gradient-gold">Perfected.</span>
             </h1>
             <p className="text-lg md:text-xl text-secondary-foreground/80 mb-8 max-w-lg leading-relaxed">
-              Authentic Kulikuli & Keleshi made with love, premium ingredients,
+              Authentic Kulikuli & Kilishi made with love, premium ingredients,
               and a commitment to taste that runs generations deep.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -62,7 +62,7 @@ export default function HomePage() {
               </Button>
               <Button asChild size="lg" variant="outline" className="gap-2 text-base border-primary/30 text-primary hover:bg-primary/10">
                 <Link to="/shop">
-                  Order Keleshi <ArrowRight className="w-4 h-4" />
+                  Order Kilishi <ArrowRight className="w-4 h-4" />
                 </Link>
               </Button>
             </div>

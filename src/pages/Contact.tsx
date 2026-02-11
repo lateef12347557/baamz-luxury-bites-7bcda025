@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { WHATSAPP_NUMBER } from "@/data/products";
+import { WHATSAPP_NUMBER, COMPANY_PHONE, COMPANY_ADDRESS } from "@/data/products";
 import { z } from "zod";
 import { toast } from "sonner";
 
@@ -16,10 +16,10 @@ const contactSchema = z.object({
 });
 
 const contactInfo = [
-  { icon: MapPin, label: "Address", value: "Lagos, Nigeria" },
-  { icon: Phone, label: "Phone", value: "+234 800 000 0000" },
+  { icon: MapPin, label: "Address", value: COMPANY_ADDRESS },
+  { icon: Phone, label: "Phone", value: COMPANY_PHONE },
   { icon: Mail, label: "Email", value: "hello@baamzfoodies.com" },
-  { icon: MessageCircle, label: "WhatsApp", value: "+234 800 000 0000" },
+  { icon: MessageCircle, label: "WhatsApp", value: "+234 905 129 1132" },
 ];
 
 export default function ContactPage() {

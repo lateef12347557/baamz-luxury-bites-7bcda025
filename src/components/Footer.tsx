@@ -34,10 +34,10 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-secondary-foreground/70 text-sm">
-              <li>📍 Lagos, Nigeria</li>
-              <li>📞 +234 800 000 0000</li>
+              <li>📍 60 Isienmwenro Street, Off Sakponba Road, Benin City, Edo State</li>
+              <li>📞 +234 703 314 4300</li>
               <li>✉️ hello@baamzfoodies.com</li>
-              <li>💬 WhatsApp: +234 800 000 0000</li>
+              <li>💬 WhatsApp: +234 905 129 1132</li>
             </ul>
           </div>
         </div>
