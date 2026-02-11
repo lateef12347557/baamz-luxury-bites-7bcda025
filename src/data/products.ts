@@ -1,7 +1,7 @@
 export interface Product {
   id: string;
   name: string;
-  category: "kulikuli" | "keleshi";
+  category: "kulikuli" | "kilishi";
   variant: string;
   price: number;
   description: string;
@@ -12,6 +12,8 @@ export interface Product {
 }
 
 export const WHATSAPP_NUMBER = "2349051291132";
+export const COMPANY_PHONE = "+234 703 314 4300";
+export const COMPANY_ADDRESS = "60 Isienmwenro Street, Off Sakponba Road, Benin City, Edo State";
 
 export const products: Product[] = [
   {
@@ -68,9 +70,9 @@ export const products: Product[] = [
     badge: "Premium",
   },
   {
-    id: "kel-mild",
-    name: "Keleshi",
-    category: "keleshi",
+    id: "kil-mild",
+    name: "Kilishi",
+    category: "kilishi",
     variant: "Mild Spice",
     price: 1500,
     description: "Tender, smoky dried meat with a gentle kick of spice.",
@@ -79,9 +81,9 @@ export const products: Product[] = [
     spiceLevel: "mild",
   },
   {
-    id: "kel-medium",
-    name: "Keleshi",
-    category: "keleshi",
+    id: "kil-medium",
+    name: "Kilishi",
+    category: "kilishi",
     variant: "Medium Spice",
     price: 1500,
     description: "The perfect balance of heat and flavor. Our bestseller.",
@@ -91,9 +93,9 @@ export const products: Product[] = [
     spiceLevel: "medium",
   },
   {
-    id: "kel-hot",
-    name: "Keleshi",
-    category: "keleshi",
+    id: "kil-hot",
+    name: "Kilishi",
+    category: "kilishi",
     variant: "Hot Spice",
     price: 1500,
     description: "For the bold — intense pepper flavor that keeps you coming back.",
@@ -102,28 +104,24 @@ export const products: Product[] = [
     spiceLevel: "hot",
   },
   {
-    id: "kel-xhot",
-    name: "Keleshi",
-    category: "keleshi",
+    id: "kil-xhot",
+    name: "Kilishi",
+    category: "kilishi",
     variant: "Extra Hot 🔥",
-    price: 1800,
-    description: "Our hottest batch. Limited edition for true spice lovers.",
+    price: 3000,
+    description: "Our hottest batch. Premium edition for true spice lovers.",
     image: "keleshi",
     inStock: true,
-    badge: "Limited Batch",
+    badge: "Premium",
     spiceLevel: "extra-hot",
   },
 ];
 
 export const deliveryAreas = [
-  "Lagos Mainland",
-  "Lagos Island",
-  "Lekki & Ajah",
-  "Ikeja & Surroundings",
-  "Abuja (FCT)",
-  "Ibadan",
-  "Port Harcourt",
-  "Nationwide (3-5 days)",
+  "Uniben",
+  "Ring Road",
+  "New Benin",
+  "Sapele Road",
 ];
 
 export const testimonials = [
@@ -135,7 +133,7 @@ export const testimonials = [
   },
   {
     name: "Tunde O.",
-    text: "Best keleshi in Lagos, hands down. The spice level is perfect and the meat is always fresh. Baamz never disappoints!",
+    text: "Best kilishi in Benin, hands down. The spice level is perfect and the meat is always fresh. Baamz never disappoints!",
     rating: 5,
     avatar: "TO",
   },
@@ -147,7 +145,7 @@ export const testimonials = [
   },
   {
     name: "Emeka U.",
-    text: "The extra hot keleshi is no joke! 🔥 Finally found a brand that delivers real heat. Keep it coming, Baamz!",
+    text: "The extra hot kilishi is no joke! 🔥 Finally found a brand that delivers real heat. Keep it coming, Baamz!",
     rating: 5,
     avatar: "EU",
   },

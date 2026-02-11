@@ -45,11 +45,11 @@ export default function AboutPage() {
             <h2 className="text-3xl font-heading font-bold mb-6">How It All Started</h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
               Baamz Foodies was born from a simple truth: the best Nigerian snacks shouldn't be hard to find. 
-              Growing up, kulikuli and keleshi were more than snacks — they were moments of joy shared with family and friends.
+              Growing up, kulikuli and kilishi were more than snacks — they were moments of joy shared with family and friends.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              We started in a small kitchen in Lagos with one mission: to bring the authentic taste of homemade 
-              kulikuli and keleshi to every Nigerian, made with premium ingredients and uncompromising hygiene standards.
+              We started in a small kitchen in Benin City with one mission: to bring the authentic taste of homemade 
+              kulikuli and kilishi to every Nigerian, made with premium ingredients and uncompromising hygiene standards.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Today, we serve thousands of happy customers across Nigeria, but our commitment remains the same — 

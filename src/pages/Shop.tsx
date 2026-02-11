@@ -5,7 +5,7 @@ import ProductCard from "@/components/ProductCard";
 import OrderSummary from "@/components/OrderSummary";
 import { products } from "@/data/products";
 
-type Filter = "all" | "kulikuli" | "keleshi";
+type Filter = "all" | "kulikuli" | "kilishi";
 
 export default function ShopPage() {
   const [filter, setFilter] = useState<Filter>("all");
@@ -15,7 +15,7 @@ export default function ShopPage() {
   const filters: { value: Filter; label: string }[] = [
     { value: "all", label: "All Products" },
     { value: "kulikuli", label: "🥜 Kulikuli" },
-    { value: "keleshi", label: "🌶️ Keleshi" },
+    { value: "kilishi", label: "🌶️ Kilishi" },
   ];
 
   return (
