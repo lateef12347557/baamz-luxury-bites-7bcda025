@@ -3,20 +3,12 @@ import { Plus, Flame } from "lucide-react";
 import { Product } from "@/data/products";
 import { useCart } from "@/hooks/useCart";
 import { Button } from "@/components/ui/button";
-import kulikuliPlusImg from "@/assets/kulikuli-plus.jpg";
-import spicyKulikuliImg from "@/assets/spicy-kulikuli.jpg";
-import silverpack2000Img from "@/assets/kulikuli-silverpack-2000.jpg";
-import silverpack3000Img from "@/assets/kulikuli-silverpack-3000.jpg";
-import promaxImg from "@/assets/kulikuli-promax.jpg";
-import keleshiImg from "@/assets/keleshi.jpg";
+import kulikuliImg from "@/assets/kulikuli-product.jpg";
+import kilishiImg from "@/assets/kilishi-product.jpg";
 
 const images: Record<string, string> = {
-  "kulikuli-plus": kulikuliPlusImg,
-  "spicy-kulikuli": spicyKulikuliImg,
-  "kulikuli-silverpack-2000": silverpack2000Img,
-  "kulikuli-silverpack-3000": silverpack3000Img,
-  "kulikuli-promax": promaxImg,
-  keleshi: keleshiImg,
+  kulikuli: kulikuliImg,
+  kilishi: kilishiImg,
 };
 
 const spiceIcons: Record<string, number> = {
