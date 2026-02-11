@@ -10,6 +10,7 @@ import silverpack3000Img from "@/assets/kulikuli-silverpack-3000.jpg";
 import promaxImg from "@/assets/kulikuli-promax.jpg";
 import keleshiImg from "@/assets/keleshi.jpg";
 import kilishiImg from "@/assets/kilishi.jpg";
+import kulikuliMaxImg from "@/assets/kulikuli-max.jpg";
 
 const images: Record<string, string> = {
   "kulikuli-plus": kulikuliPlusImg,
@@ -19,6 +20,7 @@ const images: Record<string, string> = {
   "kulikuli-promax": promaxImg,
   keleshi: keleshiImg,
   kilishi: kilishiImg,
+  "kulikuli-max": kulikuliMaxImg,
 };
 
 const spiceIcons: Record<string, number> = {
